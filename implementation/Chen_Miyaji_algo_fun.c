@@ -157,7 +157,7 @@ UC TranSearch( UC Key1[] )
 	if(MaxR == N+1)
 		return N;
 	
-	if(MaxR < N-1)
+	if(MaxR < N-2)
 	{
 		r = MaxR*k+d;
 		stateSum = 0;
